@@ -27,4 +27,17 @@ echo "
 CONFIG_TESTING_KERNEL=y
 CONFIG_PACKAGE_kmod-ipt-coova=n
 CONFIG_PACKAGE_kmod-pf-ring=n
-" >> devices/common/.config
+" >> IPQ807x-5.15-FULL.config
+
+
+echo "
+CONFIG_TESTING_KERNEL=y
+CONFIG_PACKAGE_kmod-ipt-coova=n
+CONFIG_PACKAGE_kmod-pf-ring=n
+" >> IPQ807x-5.15-BASIC.config
+
+echo "
+CONFIG_TESTING_KERNEL=y
+CONFIG_PACKAGE_kmod-ipt-coova=n
+CONFIG_PACKAGE_kmod-pf-ring=n
+" >> IPQ807x-5.15-STANDARD.config
