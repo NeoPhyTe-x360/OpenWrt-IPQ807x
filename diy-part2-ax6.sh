@@ -95,3 +95,6 @@ CONFIG_PACKAGE_kmod-ipt-coova=n
 CONFIG_PACKAGE_kmod-pf-ring=n
 " >> .config
 
+echo "
+src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git;master
+" >> feeds.conf.default
