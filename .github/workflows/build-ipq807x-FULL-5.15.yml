@@ -76,7 +76,9 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a -f
+      run: cd openwrt
+          ./scripts/feeds install -a -p kiddin9 -f
+          ./scripts/feeds install -a -f
 
     - name: Load custom configuration
       run: |
@@ -86,7 +88,9 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
         ./scripts/feeds update -a
+        ./scripts/feeds install -a -p kiddin9 -f
         ./scripts/feeds install -a -f
+        
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
       if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
