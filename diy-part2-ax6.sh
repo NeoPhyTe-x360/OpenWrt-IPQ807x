@@ -89,17 +89,9 @@ CONFIG_CPU_FREQ_GOV_ONDEMAND=y \
 CONFIG_CPU_FREQ_GOV_CONSERVATIVE=y \
 ' target/linux/ipq807x/config-5.15
 
-echo "
-CONFIG_PACKAGE_kmod-ipt-coova=n
-CONFIG_PACKAGE_kmod-pf-ring=n
-" >> /IPQ807x-5.15-FULL.config
 
 echo "
 CONFIG_PACKAGE_kmod-ipt-coova=n
 CONFIG_PACKAGE_kmod-pf-ring=n
-" >> /IPQ807x-5.15-BASIC.config
+" >> .config
 
-echo "
-CONFIG_PACKAGE_kmod-ipt-coova=n
-CONFIG_PACKAGE_kmod-pf-ring=n
-" >> /IPQ807x-5.15-STANDARD.config
