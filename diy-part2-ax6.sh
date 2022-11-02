@@ -22,7 +22,7 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package
 # git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 # git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-theme-opentomcat
 # git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
-# git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 
@@ -30,8 +30,9 @@ sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=65535' package
 git clone https://github.com/panther706/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 # git clone https://github.com/sbwml/luci-app-adguardhome.git package/luci-app-adguardhome
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-# git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+
 
 # 添加核心温度的显示
 sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
