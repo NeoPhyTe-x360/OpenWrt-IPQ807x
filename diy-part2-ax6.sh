@@ -27,11 +27,50 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 # git clone https://github.com/sirpdboy/luci-app-netdata.git package/luci-app-netdata
 
 # 添加额外软件包
-git clone https://github.com/panther706/luci-app-adguardhome package/luci-app-adguardhome
+# git clone https://github.com/panther706/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
-# git clone https://github.com/sbwml/luci-app-adguardhome.git package/luci-app-adguardhome
-# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
-git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+
+git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+
+
+# git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/adguardhome package/adguardhome
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-adguardhome package/luci-app-adguardhome
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cpufreq package/luci-app-cpufreq
+
+# git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-music-remote-center package/luci-app-music-remote-center
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-openvpn-server package/luci-app-openvpn-server
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/oscam package/oscam
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-oscam package/luci-app-oscam
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-passwall package/luci-app-passwall
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/qBittorrent package/qBittorrent
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-qbittorrent package/luci-app-qbittorrent
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-rclone package/luci-app-rclone
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-turboacc package/luci-app-turboacc
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-zerotier package/luci-app-zerotier
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-wizard package/luci-app-wizard
+
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/vsftpd-alt package/vsftpd-alt
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vsftpd package/luci-app-vsftpd
+
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/rblibtorrent package/rblibtorrent
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/qBittorrent-Enhanced-Edition package/qBittorrent-Enhanced-Edition
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon package/luci-theme-argon
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-edge package/luci-theme-edge
+
+
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-luci-app-easymesh package/luci-app-luci-app-easymesh
 
 
 # 添加核心温度的显示
@@ -42,5 +81,6 @@ sed -i 's/or "1"%>/or "1"%> ( <%=luci.sys.exec("expr `cat \/sys\/class\/thermal\
 sed -i "s/0.openwrt.pool.ntp.org/ntp.aliyun.com/g" package/base-files/files/bin/config_generate
 sed -i "s/1.openwrt.pool.ntp.org/cn.ntp.org.cn/g" package/base-files/files/bin/config_generate
 sed -i "s/2.openwrt.pool.ntp.org/cn.pool.ntp.org/g" package/base-files/files/bin/config_generate
+
 
 
