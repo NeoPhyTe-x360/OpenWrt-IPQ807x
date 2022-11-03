@@ -68,7 +68,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/l
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/rblibtorrent package/rblibtorrent
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qBittorrent-Enhanced-Edition package/qBittorrent-Enhanced-Edition
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qtbase package/qtbase
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qttools package/qttols
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qttools package/qttools
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-rclone package/luci-app-rclone
 
