@@ -69,7 +69,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/q
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-theme-argon package/luci-theme-argon
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-theme-edge package/luci-theme-edge
 
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-luci-app-easymesh package/luci-app-luci-app-easymesh
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-easymesh package/luci-app-easymesh
 
 
 
