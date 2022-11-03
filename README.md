@@ -8,7 +8,7 @@
    | Default password | `password` |
    | Default languages | `english/spanish` |
    | Packages | `adguardhome, argon-theme, qos/sqm, wireguard, openvpn, adblock, smartdns, wifischedule ` |
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/NeoPhyTe-x360/OpenWrt-Redmi-AX6-Robi?style=for-the-badge&label=Download)](https://github.com/NeoPhyTe-x360/OpenWrt-Redmi-AX6-Robi/releases/latest)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/NeoPhyTe-x360/OpenWrt-IPQ807x?style=for-the-badge&label=Download)](https://github.com/NeoPhyTe-x360/OpenWrt-IPQ807x/releases/latest)
 
 # About this repository
 
