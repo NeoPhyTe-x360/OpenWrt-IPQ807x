@@ -39,7 +39,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/l
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-cpufreq package/luci-app-cpufreq
 
-# git clone https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-music-remote-center package/luci-app-music-remote-center
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-argon-config package/luci-app-argon-config
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-openvpn-server package/luci-app-openvpn-server
 
@@ -50,10 +50,16 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/l
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qBittorrent package/qBittorrent
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-qbittorrent package/luci-app-qbittorrent
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/rblibtorrent package/rblibtorrent
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qBittorrent-Enhanced-Edition package/qBittorrent-Enhanced-Edition
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qtbase package/qtbase
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qttools package/qttols
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-rclone package/luci-app-rclone
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-turboacc package/luci-app-turboacc
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dnsforwarder package/dnsforwarder
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shortcut-fe package/shortcut-fe
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-zerotier package/luci-app-zerotier
 
@@ -64,8 +70,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/v
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-vsftpd package/luci-app-vsftpd
 
 
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/rblibtorrent package/rblibtorrent
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qBittorrent-Enhanced-Edition package/qBittorrent-Enhanced-Edition
+
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-theme-argon package/luci-theme-argon
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-theme-edge package/luci-theme-edge
 
