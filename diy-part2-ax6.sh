@@ -69,8 +69,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/qBitt
 svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon package/luci-theme-argon
 svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-edge package/luci-theme-edge
 
-
-git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-luci-app-easymesh package/luci-app-luci-app-easymesh
+svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-luci-app-easymesh package/luci-app-luci-app-easymesh
 
 
 # 添加核心温度的显示
