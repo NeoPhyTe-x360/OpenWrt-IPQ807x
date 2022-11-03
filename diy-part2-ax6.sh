@@ -73,6 +73,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/q
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-rclone package/luci-app-rclone
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-turboacc package/luci-app-turboacc
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/pdnsd-alt package/pdnsd-alt
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dnsforwarder package/dnsforwarder
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shortcut-fe package/shortcut-fe
 
@@ -80,11 +81,8 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/l
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-wizard package/luci-app-wizard
 
-
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/vsftpd-alt package/vsftpd-alt
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-vsftpd package/luci-app-vsftpd
-
-
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-theme-argon package/luci-theme-argon
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-theme-edge package/luci-theme-edge
