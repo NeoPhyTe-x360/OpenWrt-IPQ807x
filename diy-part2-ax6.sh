@@ -47,6 +47,21 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/o
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-oscam package/luci-app-oscam
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-passwall package/luci-app-passwall
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2socks package/dns2socks
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2tcp package/dns2tcp 
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/microsocks package/microsocks
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/tcping package/tcping
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/ipt2socks package/ipt2socks
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/brook package/brook
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/chinadns-ng package/chinadns-ng
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/hysteria package/hysteria
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/naiveproxy package/naiveproxy
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shadowsocks-rust package/shadowsocks-rust
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shadowsocksr-libev package/shadowsocksr-libev
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/simple-obfs package/simple-obfs
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/trojan-plus package/trojan-plus
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/v2ray-plugin package/v2ray-plugin 
+svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/xray-plugin package/xray-plugin
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qBittorrent package/qBittorrent
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-qbittorrent package/luci-app-qbittorrent
