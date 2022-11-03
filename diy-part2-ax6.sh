@@ -50,6 +50,7 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/l
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2socks package/dns2socks
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2tcp package/dns2tcp 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/microsocks package/microsocks
+svn export --force https://github.com/Lienol/tcping.git package/tcping
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/tcping package/tcping
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/ipt2socks package/ipt2socks
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/brook package/brook
