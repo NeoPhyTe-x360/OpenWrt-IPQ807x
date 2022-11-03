@@ -34,42 +34,42 @@ git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 
 # git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/adguardhome package/adguardhome
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-adguardhome package/luci-app-adguardhome
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/adguardhome package/adguardhome
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-adguardhome package/luci-app-adguardhome
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cpufreq package/luci-app-cpufreq
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cpufreq package/luci-app-cpufreq
 
 # git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-music-remote-center package/luci-app-music-remote-center
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-openvpn-server package/luci-app-openvpn-server
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-openvpn-server package/luci-app-openvpn-server
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/oscam package/oscam
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-oscam package/luci-app-oscam
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/oscam package/oscam
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-oscam package/luci-app-oscam
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-passwall package/luci-app-passwall
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-passwall package/luci-app-passwall
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/qBittorrent package/qBittorrent
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-qbittorrent package/luci-app-qbittorrent
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/qBittorrent package/qBittorrent
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-qbittorrent package/luci-app-qbittorrent
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-rclone package/luci-app-rclone
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-rclone package/luci-app-rclone
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-turboacc package/luci-app-turboacc
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-turboacc package/luci-app-turboacc
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-zerotier package/luci-app-zerotier
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-zerotier package/luci-app-zerotier
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-wizard package/luci-app-wizard
-
-
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/vsftpd-alt package/vsftpd-alt
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vsftpd package/luci-app-vsftpd
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-wizard package/luci-app-wizard
 
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/rblibtorrent package/rblibtorrent
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/qBittorrent-Enhanced-Edition package/qBittorrent-Enhanced-Edition
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon package/luci-theme-argon
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-edge package/luci-theme-edge
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/vsftpd-alt package/vsftpd-alt
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-vsftpd package/luci-app-vsftpd
 
-svn export --force https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-luci-app-easymesh package/luci-app-luci-app-easymesh
+
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/rblibtorrent package/rblibtorrent
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/qBittorrent-Enhanced-Edition package/qBittorrent-Enhanced-Edition
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon package/luci-theme-argon
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-edge package/luci-theme-edge
+
+svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-luci-app-easymesh package/luci-app-luci-app-easymesh
 
 
 # 添加核心温度的显示
