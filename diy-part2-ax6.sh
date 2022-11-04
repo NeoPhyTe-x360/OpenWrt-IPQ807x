@@ -30,7 +30,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 # git clone https://github.com/panther706/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 
-git clone https://github.com/vernesong/OpenClash.git package/OpenClash
+# git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 
 # git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
@@ -46,23 +46,23 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/l
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/oscam package/oscam
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-oscam package/luci-app-oscam
 
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-passwall package/luci-app-passwall
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2socks package/dns2socks
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2tcp package/dns2tcp 
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/microsocks package/microsocks
-svn export --force https://github.com/Lienol/tcping.git package/tcping
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/tcping package/tcping
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/ipt2socks package/ipt2socks
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/brook package/brook
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/chinadns-ng package/chinadns-ng
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/hysteria package/hysteria
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/naiveproxy package/naiveproxy
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shadowsocks-rust package/shadowsocks-rust
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shadowsocksr-libev package/shadowsocksr-libev
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/simple-obfs package/simple-obfs
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/trojan-plus package/trojan-plus
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/v2ray-plugin package/v2ray-plugin 
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/xray-plugin package/xray-plugin
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-passwall package/luci-app-passwall
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2socks package/dns2socks
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dns2tcp package/dns2tcp 
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/microsocks package/microsocks
+# svn export --force https://github.com/Lienol/tcping.git package/tcping
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/tcping package/tcping
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/ipt2socks package/ipt2socks
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/brook package/brook
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/chinadns-ng package/chinadns-ng
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/hysteria package/hysteria
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/naiveproxy package/naiveproxy
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shadowsocks-rust package/shadowsocks-rust
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shadowsocksr-libev package/shadowsocksr-libev
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/simple-obfs package/simple-obfs
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/trojan-plus package/trojan-plus
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/v2ray-plugin package/v2ray-plugin 
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/xray-plugin package/xray-plugin
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/qBittorrent package/qBittorrent
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-qbittorrent package/luci-app-qbittorrent
@@ -73,10 +73,10 @@ svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/q
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-rclone package/luci-app-rclone
 
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-turboacc package/luci-app-turboacc
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/pdnsd-alt package/pdnsd-alt
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dnsforwarder package/dnsforwarder
-svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shortcut-fe package/shortcut-fe
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-turboacc package/luci-app-turboacc
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/pdnsd-alt package/pdnsd-alt
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/dnsforwarder package/dnsforwarder
+# svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/shortcut-fe package/shortcut-fe
 
 svn export --force https://github.com/kiddin9/openwrt-packages/branches/master/luci-app-zerotier package/luci-app-zerotier
 
@@ -100,6 +100,8 @@ sed -i 's/or "1"%>/or "1"%> ( <%=luci.sys.exec("expr `cat \/sys\/class\/thermal\
 sed -i "s/0.openwrt.pool.ntp.org/ntp.aliyun.com/g" package/base-files/files/bin/config_generate
 sed -i "s/1.openwrt.pool.ntp.org/cn.ntp.org.cn/g" package/base-files/files/bin/config_generate
 sed -i "s/2.openwrt.pool.ntp.org/cn.pool.ntp.org/g" package/base-files/files/bin/config_generate
+
+
 
 
 
