@@ -103,5 +103,3 @@ sed -i "s/2.openwrt.pool.ntp.org/cn.pool.ntp.org/g" package/base-files/files/bin
 
 
 
-
-
