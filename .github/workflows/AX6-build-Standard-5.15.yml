@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build IPQ807x Standard OpenWRT (K5.15)
+name: Build AX6 Standard OpenWRT (K5.15)
 
 on:
   repository_dispatch:
