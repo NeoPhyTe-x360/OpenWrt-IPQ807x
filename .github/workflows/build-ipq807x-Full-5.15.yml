@@ -38,8 +38,8 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
-    timeout-minutes: 9999
+    runs-on: ubuntu-latest
+    timeout-minutes: 480
 
     steps:
     - name: Checkout
@@ -47,6 +47,8 @@ jobs:
 
     - name: Initialization environment
       env:
+        CC: gcc-10
+        CXX: g++-10
         DEBIAN_FRONTEND: noninteractive
       run: |
         sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
@@ -109,7 +111,7 @@ jobs:
       run: |
         cd openwrt
         echo -e "$(nproc) thread compile"
-        make USE_LIBCRYPTO=1 -j$(nproc) || make USE_LIBCRYPTO=1 -j1 || make USE_LIBCRYPTO=1 -j1 V=s
+        make -j$(nproc) || make -j1 || make -j1 V=s
         echo "::set-output name=status::success"
         grep '^CONFIG_TARGET.*DEVICE.*=y' .config | sed -r 's/.*DEVICE_(.*)=y/\1/' > DEVICE_NAME
         [ -s DEVICE_NAME ] && echo "DEVICE_NAME=_$(cat DEVICE_NAME)" >> $GITHUB_ENV
