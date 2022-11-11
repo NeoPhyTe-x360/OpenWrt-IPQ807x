@@ -11,6 +11,7 @@
    | Packages full | `adblock, adguardhome, argon-config, cpufreq, ntpc, ddns, multiwan3, openvpn, openvpn-server, oscam, qbittorrent, rclone, smartdns, sqm, upnp, wifischedule, wireguard, zerotier, vsftpd, wizard, argon-theme, edge-theme` |
    
    | `To avoid log messages:  a53pll: clock needs to be gated, you should put Max Turbo Boost CPU Freq to 1382400 in CPU Freq` |
+   | :--- | :--- |
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/NeoPhyTe-x360/OpenWrt-IPQ807x?style=for-the-badge&label=Download)](https://github.com/NeoPhyTe-x360/OpenWrt-IPQ807x/releases/latest)
 
