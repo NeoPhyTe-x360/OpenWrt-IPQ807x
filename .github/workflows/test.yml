@@ -107,6 +107,8 @@ jobs:
     - name: Compile the firmware
       id: compile
       run: |
+        cd openwrt/package/openwrt-packages/oscam
+        cmake -DWEBIF=1 -DPCSC=1; make -j1
         cd openwrt
         echo -e "$(nproc) thread compile"
         make CC=gcc-10 CXX=g++-10 -j$(nproc) || make CC=gcc-10 CXX=g++-10 -j1 || make CC=gcc-10 CXX=g++-10 -j1 V=s
