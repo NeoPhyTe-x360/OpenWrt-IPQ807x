@@ -42,6 +42,7 @@ sed -i "s/2.openwrt.pool.ntp.org/0.north-america.pool.ntp.org/g" package/base-fi
 
 
 curl -sfL https://raw.githubusercontent.com/Boos4721/openwrt/master/target/linux/ipq807x/patches-5.15/700-ipq8074-overclock-cpu-2.2ghz.patch -o target/linux/ipq807x/patches-5.15/700-ipq8074-overclock-cpu-2.2ghz.patch
+sed -i 's/uci_write_config 0 schedutil 1017600 $CPU_MAX_FREQ/uci_write_config 0 schedutil 1017600 1382400/g' package/openwrt-packages/luci-app-cpufreq/root/etc/uci-defaults/10-cpufreq
 
 sed -i '$a  \
 CONFIG_CPU_FREQ_GOV_POWERSAVE=y \
@@ -49,4 +50,3 @@ CONFIG_CPU_FREQ_GOV_USERSPACE=y \
 CONFIG_CPU_FREQ_GOV_ONDEMAND=y \
 CONFIG_CPU_FREQ_GOV_CONSERVATIVE=y \
 ' target/linux/ipq807x/config-5.15
-
