@@ -22,7 +22,7 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 
 
 git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
-
+git clone https://github.com/gSpotx2f/luci-app-temp-status.git package/luci-app-temp-status
 
 
 git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
