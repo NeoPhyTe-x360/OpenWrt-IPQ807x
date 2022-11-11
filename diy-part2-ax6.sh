@@ -26,9 +26,9 @@ git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic pa
 
 
 git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
-
+svn export --force https://github.com/shidahuilang/openwrt-package/branches/master/openwrt_oscam package/openwrt-packages/openwrt_oscam
 shopt -s extglob
-rm -R -f package/openwrt-packages/!("adguardhome"|"luci-app-adguardhome"|"luci-app-cpufreq"|"luci-app-argon-config"|"luci-app-openvpn-server"|"oscam"|"luci-app-oscam"|"qBittorrent"|"luci-app-qbittorrent"|"rblibtorrent"|"qBittorrent-Enhanced-Edition"|"qtbase"|"qttools"|"luci-app-rclone"|"luci-app-zerotier"|"luci-app-wizard"|"vsftpd-alt"|"luci-app-vsftpd"|"luci-theme-argon"|"luci-theme-edge"|"luci-app-easymesh")
+rm -R -f package/openwrt-packages/!("adguardhome"|"luci-app-adguardhome"|"luci-app-cpufreq"|"luci-app-argon-config"|"luci-app-openvpn-server"|"openwrt_oscam"|"luci-app-oscam"|"qBittorrent"|"luci-app-qbittorrent"|"rblibtorrent"|"qBittorrent-Enhanced-Edition"|"qtbase"|"qttools"|"luci-app-rclone"|"luci-app-zerotier"|"luci-app-wizard"|"vsftpd-alt"|"luci-app-vsftpd"|"luci-theme-argon"|"luci-theme-edge"|"luci-app-easymesh")
 
 
 sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
@@ -39,4 +39,13 @@ sed -i "s/0.openwrt.pool.ntp.org/ntp.aliyun.com/g" package/base-files/files/bin/
 sed -i "s/1.openwrt.pool.ntp.org/cn.ntp.org.cn/g" package/base-files/files/bin/config_generate
 sed -i "s/2.openwrt.pool.ntp.org/cn.pool.ntp.org/g" package/base-files/files/bin/config_generate
 
+
+curl -sfL https://raw.githubusercontent.com/Boos4721/openwrt/master/target/linux/ipq807x/patches-5.15/700-ipq8074-overclock-cpu-2.2ghz.patch -o target/linux/ipq807x/patches-5.15/700-ipq8074-overclock-cpu-2.2ghz.patch
+
+sed -i '$a  \
+CONFIG_CPU_FREQ_GOV_POWERSAVE=y \
+CONFIG_CPU_FREQ_GOV_USERSPACE=y \
+CONFIG_CPU_FREQ_GOV_ONDEMAND=y \
+CONFIG_CPU_FREQ_GOV_CONSERVATIVE=y \
+' target/linux/ipq807x/config-5.15
 
