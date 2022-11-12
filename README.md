@@ -7,10 +7,10 @@
    | Default password | `password` |
    | Default languages | `english` |
    | Packages basic | `cpufreq, ddns, openvpn, upnp, wireguard, edge-theme` |
-   | Packages standard | `adblock, cpufreq, ntpc, ddns, openvpn, openvpn-server, qbittorrent, sqm, upnp, wifischedule, wireguard, wizard, argon-theme, edge-theme` |
-   | Packages full | `adblock, adguardhome, argon-config, cpufreq, ntpc, ddns, multiwan3, openvpn, openvpn-server, oscam, qbittorrent, rclone, smartdns, sqm, upnp, wifischedule, wireguard, zerotier, vsftpd, wizard, argon-theme, edge-theme` |
+   | Packages standard | `adblock, cpufreq, ntpc, ddns, openvpn, openvpn-server, sqm, upnp, wifischedule, wireguard, wizard, argon-theme, edge-theme` |
+   | Packages full | `adblock, adguardhome, argon-config, cpufreq, ntpc, ddns, multiwan3, openvpn, openvpn-server, qbittorrent, rclone, smartdns, sqm, upnp, wifischedule, wireguard, zerotier, vsftpd, wizard, argon-theme, edge-theme` |
    
-#### Note: To avoid log messages:  a53pll: clock needs to be gated, you should put Max Turbo Boost CPU Freq to 1382400 in CPU Freq
+#### Note: Maybe you have to increase your partitions if you like to fit Full version of this firmware, tutorial here: https://forum.openwrt.org/t/adding-openwrt-support-for-xiaomi-ax3600/55049/8749
 
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/NeoPhyTe-x360/OpenWrt-IPQ807x?style=for-the-badge&label=Download)](https://github.com/NeoPhyTe-x360/OpenWrt-IPQ807x/releases/latest)
