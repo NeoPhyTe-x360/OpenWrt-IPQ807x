@@ -19,24 +19,10 @@
 
 > This repository is based on [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)<br>
 > OpenWRT branch from [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15-pr)<br>
+> OpenWRT packages from [kiddin9/openwrt-packages](https://github.com/kiddin9/openwrt-packages)<br>
 
-Use Github Actions Automatically compile firmware for Redmi AX6
 
-## Redmi AX6 Specification
 
-![luci\_admin\_status\_overview](.gitbook/assets/redmi-ax6.jpg)
-
-   | Specification | value |
-   | :--- | :--- |
-   | CPU | [Qualcomm Pro 600 Series IPQ8071A](https://www.qualcomm.com/products/application/networking/qualcomm-networking-pro-600-platform) |
-   | CPU Frequency | 4xA53 1.4GHz |
-   | ROM | 128MB |
-   | RAM | 512MB |
-   | Peak Speed | 3000Mbps (5GHz:2402Mbps,2.4GHz:572Mbps) |
-   | Standards | 802.11ax (WIFI 6) |
-   | Network Port | 10/100/1000Mbps x4 |
-
-#### Note: Some parameters may only be used by the official
 
 
 ## Features
@@ -78,14 +64,9 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 ## Issues
 #### Disclaimer: The following known issues are all personal measurements, and there may be unknown issues. I am not responsible for any issues caused by the firmware
 
-~~* As of the editing of this article, since the memory leak problem of ax6's openwrt is still unresolved, my personal suggestion is to restart every once in a while and add the following commands through the system-startup item-local startup script (note: to exit Before 0):~~
-   ```bash
-   echo "0 4 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
-   echo "0 16 * * * sleep 5 && touch /etc/banner && reboot" >> /etc/crontabs/root
-   ```
-   ~~Then restart the router once. It will restart at 4 am and 16 pm every day. If you can understand the principle of crontab, you can also customize the restart time.~~
-
 * (update)The problem of luci stuck due to memory seems to be fixed (I haven't seen luci crash for several days after booting), but due to at least 5.15 kernel, it can't open 160Mhz.
+
+
 
 ## Credits
 
@@ -97,3 +78,4 @@ Use Github Actions Automatically compile firmware for Redmi AX6
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
 * [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)
 * and all OpenWRT/LEDE related contributors
+* [kiddin9/openwrt-packages](https://github.com/kiddin9/openwrt-packages)
