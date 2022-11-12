@@ -77,5 +77,5 @@
 * [P3TERX](https://github.com/P3TERX)
 * [smith97](https://www.right.com.cn/forum/thread-6054985-1-1.html)
 * [robimarko/openwrt](https://github.com/robimarko/openwrt/tree/ipq807x-5.15)
-* and all OpenWRT/LEDE related contributors
 * [kiddin9/openwrt-packages](https://github.com/kiddin9/openwrt-packages)
+* and all OpenWRT/LEDE related contributors
