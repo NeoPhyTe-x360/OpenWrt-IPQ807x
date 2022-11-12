@@ -6,7 +6,7 @@
    | Default IP address | `10.6.6.1` |
    | Default password | `password` |
    | Default languages | `english` |
-   | Packages basic | `cpufreq, ddns, openvpn, upnp, wireguard, edge-theme` |
+   | Packages basic | `cpufreq, ddns, openvpn, openvpn-server, upnp, wireguard, edge-theme` |
    | Packages standard | `adblock, cpufreq, ntpc, ddns, openvpn, openvpn-server, sqm, upnp, wifischedule, wireguard, wizard, argon-theme, edge-theme` |
    | Packages full | `adblock, adguardhome, argon-config, cpufreq, ntpc, ddns, multiwan3, openvpn, openvpn-server, qbittorrent, rclone, smartdns, sqm, upnp, wifischedule, wireguard, zerotier, vsftpd, wizard, argon-theme, edge-theme` |
    
