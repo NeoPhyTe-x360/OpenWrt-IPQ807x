@@ -26,7 +26,7 @@ env:
   REPO_URL: https://github.com/robimarko/openwrt
   REPO_BRANCH: ipq807x-5.15-pr
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: IPQ807x-5.15-full.config
+  CONFIG_FILE: test.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2-ax6.sh
   UPLOAD_BIN_DIR: false
@@ -107,11 +107,9 @@ jobs:
     - name: Compile the firmware
       id: compile
       run: |
-        cd openwrt/package/openwrt-packages/oscam
-        cmake -DWEBIF=1 -DPCSC=1; make -j1
         cd openwrt
         echo -e "$(nproc) thread compile"
-        make CC=gcc-10 CXX=g++-10 -j$(nproc) || make CC=gcc-10 CXX=g++-10 -j1 || make CC=gcc-10 CXX=g++-10 -j1 V=s
+        make -j$(nproc) || make -j1 || make -j1 V=s
         echo "::set-output name=status::success"
         echo "DEVICE_NAME=ipq807x" >> $GITHUB_ENV
         echo "FILE_DATE=_$(date +"%Y%m%d%H%M")" >> $GITHUB_ENV
