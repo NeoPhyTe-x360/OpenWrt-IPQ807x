@@ -7,7 +7,7 @@
    | Default password | `password` |
    | Default languages | `english` |
    | Packages basic | `cpufreq, ddns, openvpn, openvpn-server, upnp, wireguard, edge-theme` |
-   | Packages standard | `adblock, cpufreq, ntpc, ddns, openvpn, openvpn-server, sqm, upnp, wifischedule, wireguard, wizard, argon-theme, edge-theme` |
+   | Packages standard | `adblock, cpufreq, ntpc, ddns, openvpn, openvpn-server, sqm, upnp, wifischedule, wireguard, wizard, wol, argon-theme, edge-theme` |
    | Packages full | `adblock, adguardhome, argon-config, cpufreq, ntpc, ddns, multiwan3, openvpn, openvpn-server, qbittorrent, rclone, smartdns, sqm, uhttpd, upnp, wifischedule, wireguard, zerotier, vsftpd, wizard, argon-theme, edge-theme` |
    
 #### Note: Maybe you have to increase your partitions if you like to fit Full version of this firmware, tutorial here: https://forum.openwrt.org/t/adding-openwrt-support-for-xiaomi-ax3600/55049/8749
