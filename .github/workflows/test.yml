@@ -102,14 +102,17 @@ jobs:
       run: |
         cd openwrt
         make defconfig
+        make download -j8
+        find dl -size -1024c -exec ls -l {} \;
+        find dl -size -1024c -exec rm -f {} \;
 
     - name: Compile the firmware
       id: compile
       run: |
         cd openwrt
+        sudo chmod 777 -R ./
+        sudo chmod 777 -R /tmp
         ls -la /usr/bin/ | grep -oP "[\S]*(gcc|g\+\+)(-[a-z]+)*[\s]" | xargs bash -c 'for link in ${@:1}; do sudo ln -s -f "/usr/bin/${link}-${0}" "/usr/bin/${link}"; done' 10
-        gcc --version
-        sleep 30
         echo -e "$(nproc) thread compile"
         make -j$(nproc) USE_SSL=1 || make -j1 USE_SSL=1 || make -j1 USE_SSL=1 V=s
         echo "::set-output name=status::success"
